@@ -1,4 +1,4 @@
-Kingemocut-s-Folder-Game
+Kingemocut's Folder Game
 ========================
 
 All the code within this repository is source code created for, and/or during the creation of Kingemocut's Folder Game
