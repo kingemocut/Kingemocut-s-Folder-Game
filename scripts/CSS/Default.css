@@ -1,0 +1,351 @@
+/*avarage styles and forced defaults
+Soon I'll update the .css to work on Firefox. currently, the only thing (that i know of) that needs editing and adding is the dropping of shadows
+*/
+/*started hint/editing work March 13th, 2013*/
+*
+{
+  padding : 3px;		/*make everything have a padding of 3 pixles*/
+	border : 3px;		/*same thing with a border of 3 pixles*/
+	color : #FFFFFF;	/*all text color starts at white*/
+	max-width : 1280px;	/*force a maximum width of 1280 pixles*/
+}
+
+html
+{
+	background-image:url('alone lonely luna sad.jpg');	/*make the background image only appear on the main background(it can't be under the * rating or it reloads on everything thats slightly different.)*/
+	background-attachment:fixed;						/*make the image stay in the same place*/
+	background-repeat:no-repeat;						/*make the image never repeat*/
+	background-color:#000000;							/*include a black background (for effect)*/
+	padding : 0px;										/*start off with no padding*/
+	border : 0px;										/*start off with no border*/
+}
+
+h1, h1 a, center h1, u h1, center b h1	/*style all the bigest sized headers*/
+{
+	font-family : platinum beat BTN;	/*make every max sized header the same font (this font works well as a header:P)*/
+	font-size : 100px;					/*make the font sizes always the same*/
+}
+
+h1 a:hover							/*making the hyperlink styled when the users mouse is over*/
+{
+	text-decoration : underline;	/*make the hyperlink underlined when the mouse hovers on the link*/
+	color : #337777					/*replace the white color with a different one.*/
+}
+
+h2 /*gotta continue from here*/
+/*Restarted work on the hints on March 18th, 2013*/
+{
+	font-size : 50px;					/*set font size by defalt for H2 hedings to 50 pixles*/
+	font-family : platinum beat BTN;
+}
+
+h2 a:hover
+{
+	text-decoration : underline; 
+	color : #FFFFFF
+}
+
+h2 u b
+{
+	color : #CC0000;
+	font-size : 50px;
+}
+
+h3
+{
+	font-size : 25px;
+}
+
+h3 a
+{
+	font-size : 40px;
+	color : #FFFFFF;
+}
+
+center h3 a
+{
+	font-size : 25px;
+	color : #ff6666
+}
+
+u h3
+{
+	font-size : 25px;
+}
+
+center h3
+{
+	font-size : 25px;
+}
+
+h3 u b
+{
+	font-size : 25px;
+	color : #CC0000;
+}
+h4
+{
+	font-size : 15px;
+}
+a
+{
+	color : #ffffff ;
+	text-decoration: none ;
+}
+
+a:visited 
+{
+	color : #ffffff ;
+	text-decoration: none ;
+}
+
+/*Editing an Image's Style*/
+
+img
+{
+	/*make the image padding gone*/
+	padding : 0px;
+	
+	/*remove the image border*/
+	border : 0px;
+	
+	/*remove mouse cursor*/
+	cursor : hidden;
+	
+	/*remove text decoration(even though it's an image, LOL)*/
+	text-decoration : none;
+	
+	/*droping a shadow behind the image*/
+	
+	/*FireFox*/
+	-moz-box-shadow :3px 3px 50px #ffff00;
+	
+	
+	/*Google Chrome*/
+	-webkit-box-shadow: 3px 3px 50px #ffff00; /*make the shadow white by default, with size = 50 pixles*/
+	-webkit-border-bottom-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-bottom-left-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-left-radius:10px;/* curve size = 10 pixles */
+}
+
+a img
+{
+	padding : 0px;
+	border : 0px;
+	cursor : hidden;
+	text-decoration : none;
+}
+
+center a img
+{
+	padding : 0px;
+	border : 0px;
+	cursor : hidden;
+	text-decoration : none;
+}
+
+h6
+{
+	font-size : 10px;
+	color : #ffffff;
+}
+
+h6 footer a
+{
+	color : #FFFFFF;
+	text-decoration: none ;
+}
+/*Nameing Certan ID's Within the HTML*/
+
+/*Body Section*/
+
+/*Hyperlinks*/
+
+/*E-Mail Style*/
+
+#Word_Art
+{
+
+	/*Recoloring the text to silver*/
+	color : #777777;
+	
+	/*shadowing the text*/
+	
+	/*FireFox*/
+	-moz-box-shadow :3px 5px 50px #FF00FF; /* Make the shadow purple by default, with size = 50 pixles*/
+	
+	/*Google Chrome & Safari*/
+	-webkit-box-shadow: 2px 2px 100px #FF00FF; /* Make the shadow purple by default, with size = 100 pixles*/
+	-webkit-border-bottom-right-radius:380px;/* curve size = 380 pixles */
+	-webkit-border-bottom-left-radius:180px;/* curve size = 180 pixles */
+	-webkit-border-top-right-radius:380px;/* curve size = 380 pixles */
+	-webkit-border-top-left-radius:180px;/* curve size = 180 pixles */
+}
+
+#E-Mail
+{
+	/*shadowing the text*/
+	
+	/*FireFox*/
+	-moz-box-shadow :3px 5px 50px #ffffff; /* Make the shadow white by default, with size = 50 pixles*/
+	
+	/*Google Chrome & Safari*/
+	-webkit-box-shadow: 3px 5px 50px #ffffff; /* Make the shadow white by default, with size = 50 pixles*/
+	-webkit-border-bottom-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-bottom-left-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-left-radius:10px;/* curve size = 10 pixles */
+}
+
+#E-Mail:hover
+{
+	color : #666666; /*make the text go red when the mouse is over it*/
+	text-decoration : underline; /*underline the text when the mouse is over it*/
+	
+	/*shadowing the text*/
+	
+	/*FireFox*/
+	-moz-box-shadow :3px 5px 75px #666666; /*make the shadow red & size = 75 pixles when the mouse is over it*/
+	
+	/*Google Chrome & Safari*/
+	-webkit-box-shadow: 3px 5px 75px #666; /*make the shadow red & size = 75 pixles when the mouse is over it*/
+	-webkit-border-bottom-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-bottom-left-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-left-radius:10px;/* curve size = 10 pixles */
+}
+
+/* End E-Mail Style*/
+
+/*End Body Section*/
+
+/*Footer*/
+
+/*Kingemocut's Style*/
+
+#kingemocut
+{
+	color:#ffff00;
+	/*shadowing the text*/
+	
+	/*FireFox*/
+	-moz-box-shadow :3px 3px 50px #ffff00; /*make the shadow yellow by default, with size = 50 pixles*/
+	
+	/*Google Chrome & Safari*/
+	-webkit-box-shadow: 3px 3px 50px #ffff00; /* Make the shadow yellow by default, with size = 50 pixles*/
+	-webkit-border-bottom-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-bottom-left-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-left-radius:10px;/* curve size = 10 pixles */
+}
+
+#kingemocut:hover
+{
+	color : #666666; /*make the text gray when the mouse is over it*/
+	text-decoration : underline; /*underline the text when the mouse is over it*/
+	
+	/*shadowing the text*/
+	
+	/*FireFox*/
+	-moz-box-shadow :3px 3px 75px #666666; /*make the shadow gray & size = 75 pixles when the mouse is over it*/
+	
+	/*Google Chrome & Safari*/
+	-webkit-box-shadow: 3px 3px 75px #666666; /*make the shadow gray & size = 75 pixles when the mouse is over it*/
+	-webkit-border-bottom-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-bottom-left-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-left-radius:10px;/* curve size = 10 pixles */
+}
+
+/*End Kingemocut's Style*/
+
+/*Palkia's Style*/
+
+#palkia_my_Queen
+{
+	color : #ffff00; /*make the text Yellow by default*/
+	/*shadowing the text*/
+	
+	
+	/*Google Chrome & Safari*/
+	-webkit-box-shadow: 3px 3px 50px #ffff00; /* Make the shadow yellow by default, with size = 50 pixles*/
+	-webkit-border-bottom-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-bottom-left-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-left-radius:10px;/* curve size = 10 pixles */
+}
+
+#palkia_my_Queen:hover
+{
+	color : #00ffff; /*make the text Cyan when the mouse is over it*/
+	text-decoration : underline;/*underline the text when the mouse is over it*/
+	
+	/*shadowing the text*/
+	
+	/*FireFox*/
+	-moz-box-shadow :3px 5px 75px #00ffff; /*make the shadow Cyan & size = 75 pixles when the mouse is over it*/
+	
+	/*Google Chrome & Safari*/
+	-webkit-box-shadow: 3px 5px 75px #00ffff; /*make the shadow Cyan & size = 75 pixles when the mouse is over it*/
+	-webkit-border-bottom-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-bottom-left-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-left-radius:10px;/* curve size = 10 pixles */
+}
+
+/*End Palkia's Style*/
+
+/*Copyright Style*/
+
+#Copyright
+{
+	color:#ffff00;
+	/*shadowing the text*/
+	
+	/*FireFox*/
+	-moz-box-shadow :3px 5px 50px #ffff00;/* Make the shadow yellow by default, with size = 50 pixles*/
+	
+	/*Google Chrome & Safari*/
+	-webkit-box-shadow: 3px 5px 50px #ffff00;/* Make the shadow yellow by default, with size = 50 pixles*/
+	-webkit-border-bottom-right-radius:10px;/*curve size = 10 pixles*/
+	-webkit-border-top-right-radius:10px;/*curve size = 10 pixles*/
+	-webkit-border-bottom-left-radius:10px;/*curve size = 10 pixles*/
+	-webkit-border-top-left-radius:10px;/*curve size = 10 pixles*/
+}
+
+#Copyright:hover
+{
+
+	color : #ffffff; /*make the text bright white when the mouse is over it*/
+	text-decoration : underline; /*underline the text when the mouse is over it*/
+	
+	/*shadowing the text*/
+	
+	/*FireFox*/
+	-moz-box-shadow :3px 5px 50px #ffffff; /*make the shadow green & size = 75 pixles when the mouse is over it*/
+	
+	
+	/*Google Chrome & Safari*/
+	-webkit-box-shadow: 3px 5px 50px #ffffff; /*make the shadow green & size = 75 pixles when the mouse is over it*/
+	-webkit-border-bottom-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-right-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-bottom-left-radius:10px;/* curve size = 10 pixles */
+	-webkit-border-top-left-radius:10px;/* curve size = 10 pixles */
+}
+
+/*End Copyright Style*/
+
+
+/*
+*Entire source code created by Kingemocut aka Marcus Tindal-Wiles 2013 (c) All rights reserved
+*If you wish to distribute this CSS on any other sites other than 
+*https://github.com/kingemocut ; http://kingemocut.weebly.com/ ; http://kingemocut.deviantart.com ;  http://hopeless-romeo.wikia.com/wiki/
+*Then please Email me at marcustindalwiles@yahoo.co.uk with the subject title being code request ~~ HTML, CSS or JS adoption
+*and the body containing a valid reason why you want the script. Reasons such as "Because it looks cool", or "Because i want it" will not be accepted
+*also, please remember to use half decent grammar, it's hard enough to read some of my own notes, so it'd be great if you could use at least a small amount of good grammar
+*and then give aprox 2 weeks/14 days for feedback. the E-mail will be replied to as soon as it's possible
+*
+*
+*/
+/*End Footer Section*/
