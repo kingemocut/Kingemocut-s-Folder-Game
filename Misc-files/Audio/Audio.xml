@@ -1,0 +1,26 @@
+<audio>
+	<music>
+		<breaking_Benjamin>
+			<song>
+				<song_title>Better Days</song_title>
+				<from_album>Shallow Bay: best of Breaking Benjamin</from_album>
+				<source>http://kingemocut.weebly.com/uploads/1/3/2/4/13244411/better_days.mp3</source>
+			</song>
+			<song>
+				<song_title>You</song_title>
+				<from_album>Phobia</from_album>
+				<source>http://kingemocut.weebly.com/uploads/1/3/2/4/13244411/breaking_benjamin_-_you.mp3</source>
+			</song>
+		</breaking_Benjamin>
+		<Nickleback>
+			<song>
+				<song_title>Hero</song_title>
+				<from_single>Hero</from_single>
+				<source>http://kingemocut.weebly.com/uploads/1/3/2/4/13244411/hero_-_nickelback.mp3</source>
+			</song>
+		</Nickleback>
+	</music>
+	<sfx>
+	<1-- currently N/A  -->
+	</sfx>
+</audio>
