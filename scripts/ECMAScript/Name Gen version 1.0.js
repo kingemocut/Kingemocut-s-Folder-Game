@@ -1,6 +1,6 @@
 /*This random name genirator has been made by kingemocut AKA Marcus Tindal-Wiles. All rights for this script belong to him/me (it's aqwerd refering to myself as him, LOL)
 if you want to use this script on your website, please E-Mail me at;
-Kingemocut@yahoo.co.uk
+marcustindalwiles@yahoo.co.uk
 or contact me on Deviantart at
 http://kingemocut.deviantart.com
 This is released under GNU GPL and as such may be edited to suit the users (Your) needs
@@ -43,7 +43,7 @@ function init()
 		case 9 : Names = 'Flame';																													break; //A badass guy. sometimes a mega mood killer, but after what he's been through, everyone'd be the same. he's my second Best friend, for a few reasons only the wikia is alowed to know about.
 		case 10: Names = 'TAH';																														break; //The Amazing Hypeneegee. not the coolist kid, but still an epic RP (rollplay) fighter
 		case 11: Names = '<a id="palkia_my_Queen" href="http://xXx8CyanTrain8xXx.deviantart.com" title="an epic DA">Blue/Palk</a>';					break; //Palk's the only person I WILL ever know who's so hot, she makes the sun melt and the blood in my vains rush faster than a speeding bullet. She's the coolest cat on the block, and I owe her big time. If there's anything she ever wants, I'd get it for her.
-/*	case 12: Names = '[Person's name]';																											break;
+/*	case 12: Names = '[Person's name]';																												break;
 		case 13: Names = '[Person's name]';																											break;
 		case 14: Names = '[Person's name]';																											break;
 		case 15: Names = '[Person's name]';																											break;
@@ -131,7 +131,7 @@ function init()
 		case 97: Names = '[Person's name]';																											break;
 		case 98: Names = '[Person's name]';																											break;
 		case 99: Names = '[Person's name]';																											break;
-		case 100: Names = '[Person's name]';																										break;*/
+		case 100: Names = '[Person's name]';																											break;*/
 		//default command is used in case an error happens, like the the number returned by math.ceil is bigger than the number of case's.
 		default: Names = '<a id="palkia_my_Queen" href="http://xXx8CyanTrain8xXx.deviantart.com" title="an epic DA">Blue/Palk</a>';					break; //Palk's the only person I will EVER know who's so hot, she makes the sun melt and the blood in my vains rush faster than a speeding bullet. She's the coolest cat on the block, and I owe her big time. If there's anything she ever wants, I'd get it for her.
 	}
@@ -140,7 +140,7 @@ function init()
 //Emo's note: The text will also be centered and with the second highest font size/'header' (as the HTML5.0 call it).
 Printing.innerHTML += "<center><h2>Today we're gonna let " + Names + " test out this game</h2></center>";
 }
-//when the window loads, it opens with a name already Down. this is why you MUST make this script embeded into 'fresh' html document, with only this script and a .css. i'dlike to state i'm working on a fix for this as you read this
+//when the window loads, it opens with a name already Down. this is why you MUST make this script embeded into 'fresh' html document, with only this script and a .css. i'd like to state i'm working on a fix for this as you read this
 //also, the .css included in the game archive is only the basic one. moders, if you want a cool looking .css, make it yourself, or E-mail me.
 //if you want me to make the .css, please be ready to depart with 8$ (or the foregin equivalent) of your hard earned cash. (it's 8$ because that's the closest round figure to 5 (british) pounds) (Stupid Keyboard Layout Fail...)
 
